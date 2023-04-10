@@ -1,0 +1,78 @@
+body {
+    background-image: url(../IMG/raios.png);
+    background-color: #4C34AD;
+}
+
+:root {
+    --cor1: #645CBB;
+    --cor2: #4C34AD;
+    --cor3: #BFACE2;
+    --cor4: #EBC7E6;
+}
+
+
+
+.Entrar {
+    background: linear-gradient(to bottom, #938DD0, #A084DC, #BFACE2, #EBC7E6);
+    border-radius: 5px;
+    height: 50px;
+    width: 90px;
+    font-size: 20px;
+    margin-left: 25px;
+    margin-top: 35px;
+}
+
+.div1 {
+    position: absolute;
+    width: 644px;
+    height: 605px;
+    left: 483px;
+    top: 94px;
+    text-align: center;
+    background: rgba(217, 217, 217, 0.25);
+}
+.div2{
+    
+}
+
+.Cancelar {
+    background: linear-gradient(to bottom, #938DD0, #A084DC, #BFACE2, #EBC7E6);
+    border-radius: 5px;
+    height: 50px;
+    width: 110px;
+    font-size: 20px;
+    margin-top: 35px;
+}
+
+.email {
+    margin-top: 25px;
+    width: 586px;
+    height: 43px;
+    left: 36px;
+    top: 104px;
+    border: none;
+    background: #EBC7E6;
+    border-radius: 8px;
+}
+
+.email.baixo {
+    margin-top: 35px;
+}
+
+.email.senha {
+    margin-bottom: 45px;
+    
+}
+.Escolha{
+    margin-top: 15px;
+    width: 286px;
+    height: 43px;
+    left: 36px;
+    top: 104px;
+    background: #EBC7E6;
+    border-radius: 8px;
+}
+.coracao{
+    font-size: 25px;
+    margin-top: 25px;
+}
