@@ -1,6 +1,7 @@
 body {
     background-image: url(../IMG/raios.png);
     background-color: #4C34AD;
+    background-size: cover;
 }
 
 :root {
@@ -10,7 +11,11 @@ body {
     --cor4: #EBC7E6;
 }
 
-
+.Index {
+    background-image: url(../IMG/raios.png), linear-gradient(to top, rgba(0, 0, 0, 0.253), rgba(0, 0, 0, 0.264)) ,url(../IMG/film-movie-movies-poster-wallpaper-preview.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
 
 .Entrar {
     background: linear-gradient(to bottom, #938DD0, #A084DC, #BFACE2, #EBC7E6);
@@ -19,7 +24,7 @@ body {
     width: 90px;
     font-size: 20px;
     margin-left: 25px;
-    margin-top: 35px;
+    margin-top: 25px;
 }
 
 .div1 {
@@ -31,7 +36,15 @@ body {
     text-align: center;
     background: rgba(217, 217, 217, 0.25);
 }
-
+.div6{
+    position: absolute;
+    width: 644px;
+    height: 635px;
+    left: 483px;
+    top: 94px;
+    text-align: center;
+    background: rgba(217, 217, 217, 0.25);
+}
 .div2 {
     position: absolute;
     width: 1440px;
@@ -47,7 +60,7 @@ body {
     height: 50px;
     width: 110px;
     font-size: 20px;
-    margin-top: 35px;
+    margin-top: 25px;
 }
 
 .email {
@@ -66,7 +79,7 @@ body {
 }
 
 .email.senha {
-    margin-bottom: 45px;
+    margin-bottom: 35px;
 
 }
 
@@ -92,13 +105,26 @@ body {
     margin-top: 45px;
 }
 .Cadastrodemidia{
-    background: linear-gradient(to bottom, #938DD0, #A084DC, #BFACE2, #EBC7E6);
-    border-radius: 5px;
-    height: 40px;
     width: 180px;
-    font-size: 15px;
     margin-top: 35px;
-   
+   background: linear-gradient(to bottom, #938DD0, #A084DC, #BFACE2, #EBC7E6);
+   border-radius: 5px;
+   height: 50px;
+   width: 100px;
+   font-size: 20px;
+   margin-left: 25px;
+   margin-top: 35px;
+}
+.Cadastrodemidia2{
+    width: 180px;
+    margin-top: 35px;
+   background: linear-gradient(to bottom, #938DD0, #A084DC, #BFACE2, #EBC7E6);
+   border-radius: 5px;
+   height: 40px;
+   width: 200px;
+   font-size: 20px;
+   margin-left: 25px;
+   margin-top: 35px;
 }
 .sair{
     background: linear-gradient(to bottom, #938DD0, #A084DC, #BFACE2, #EBC7E6);
@@ -114,17 +140,33 @@ body {
     justify-content: space-between;
 
 }
+
 .series{
    
     background: #4C34AD;
-    display: flex;
-    margin: 20px;
+    margin: 20px;  
     
+    display: flex;
+    overflow: scroll;
+    
+}
+.series::-webkit-scrollbar{
+    display: none;
 }
 .series img {
     margin-left: 10px;
 }
 .titulo{
+    color: white;
+}
+.series3 {
+    display: flex;
+    overflow: scroll;
+}
+.series3::-webkit-scrollbar{
+    display: none;
+}
+.titulo3{
     color: white;
 }
 .series3 img{
@@ -134,3 +176,141 @@ body {
     background: #4C34AD;
    
 }
+.div3{
+    background-color: #BFACE2;
+    height: 30px;
+    margin-top: 10px;
+}
+.p1{
+    text-align: center;
+}
+.div4{
+    margin-left: 90px;
+    color: white;
+    margin-top: 150px;
+}
+.div5{
+    margin-left: 300px;
+    margin-top: 50px;
+    margin-bottom: 250px;
+}
+main{
+    margin: auto;
+    width: fit-content;
+    max-width: 1500px;
+}
+div > h1{
+    color: white;
+}
+
+.card {
+    margin-top: 30px;
+    display:  flex;
+    align-items: center;
+}
+.card img {
+    max-width: 696px;
+    max-height: 390px;
+}
+.card h1 {
+    width: 50%;
+    height: 100%;
+    text-align: center;
+}
+.botao {
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    width: 100%;
+    height: auto;
+
+}
+.os100{
+    width: 300px;
+}
+.os100:hover{
+content:url(../IMG/the100.gif)
+}
+.arrow{
+    width: 300px;
+}
+.arrow:hover{
+    content:url(../IMG/the-arrow-oliver-queen.gif)
+}
+.supergirl{
+    width: 300px;
+}
+.supergirl:hover{
+    content:url(../IMG/supergirl.gif);
+    min-width:300px;
+    max-height: 180px;
+}
+.teenwolf{
+ min-width: 300px;
+ max-height: 168px;
+}
+.teenwolf:hover{
+    content:url(../IMG/teenwolf.gif)
+}
+.clubedascoisasmagicas{
+    width: 300px;
+}
+.clubedascoisasmagicas:hover{
+    content:url(../IMG/clube\ das\ coisas\ magicas\ gif.gif)
+}
+.goodwitch{
+    width: 300px;
+}
+.goodwitch:hover{
+    content:url(../IMG/goodwitch.gif)
+}
+.belaeafera{
+    width: 300px;
+    height: 180px;
+}
+.belaeafera:hover{
+    content:url(../IMG/belaeafera.gif)
+}
+.aspatricinhasdeberverlyhills{
+    width: 300px;
+}
+.aspatricinhasdeberverlyhills:hover{
+    content: url(../IMG/aspatricinhasdebervelyhills.gif);
+}
+.jogosvorazes{
+    width: 300px;
+}
+.jogosvorazes:hover{
+    content:url(../IMG/gif\ jogos\ vorazes.gif)
+}
+.jumanji{
+    width: 300px;
+}
+.jumanji:hover{
+    content:url(../IMG/jumanji-welcome-to-the-jungle-jumanji.gif)
+}
+.riptide{ 
+    width: 300px;
+}
+.riptide:hover{
+    content:url(../IMG/riptide.gif)
+}
+.soulsurfer{
+    width: 300px;
+}
+.soulsurfer:hover{
+    content:url(../IMG/soulsurfer.gif)
+    
+}
+@media (max-width:600px) {
+   .header3{
+        flex-wrap: wrap;
+   }
+   .div4 .div5{
+        flex-wrap: wrap;
+       }
+    footer > .card{
+        flex-wrap: wrap;
+        flex-direction: column;
+       }
+  }
