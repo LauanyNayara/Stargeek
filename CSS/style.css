@@ -7,7 +7,7 @@
 
 body.Index {
     margin: 0;
-    background-image: url(../IMG/raios.png),linear-gradient(to top, rgba(0, 0, 0, 0.356), rgba(0, 0, 0, 0.477)), 
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.356), rgba(0, 0, 0, 0.477)), 
     url(../IMG/film-movie-movies-poster-wallpaper-preview.jpg);
 
 
