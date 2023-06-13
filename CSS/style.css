@@ -120,8 +120,25 @@ body {
     width: 100px;
     font-size: 20px;
     margin-top: 25px;
+    text-decoration: none;
+    padding: 12px;
+    border:2px solid rgba(0, 0, 0, 0.522);
+    color: black;
+    margin-left: 25px;
 }
-
+.cadastrar {
+    background: linear-gradient(to bottom, #938DD0, #A084DC, #BFACE2, #EBC7E6);
+    border-radius: 5px;
+    height: 50px;
+    width: 110px;
+    font-size: 20px;
+    margin-top: 25px;
+    text-decoration: none;
+    padding: 12px;
+    border:2px solid rgba(0, 0, 0, 0.522);
+    color: black;
+    margin-left: 25px;
+}
 .email {
     margin-top: 25px;
     width: 456px;
@@ -132,7 +149,16 @@ body {
     background: #EBC7E6;
     border-radius: 8px;
 }
-
+.email1 {
+   
+    width: 456px;
+    height: 43px;
+    left: 36px;
+    top: 104px;
+    border: none;
+    background: #EBC7E6;
+    border-radius: 8px;
+}
 .email.baixo {
     margin-top: 35px;
 }
@@ -141,7 +167,13 @@ body {
     margin-bottom: 35px;
 
 }
-
+.selecao {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    justify-content: center;
+}
 .Escolha {
     margin-top: 15px;
     width: 256px;
@@ -255,7 +287,7 @@ body {
     color: white;
 }
 
-.series3 img {
+.series3 > img {
     width: 200px;
     height: 300px;
     margin-left: 60px;
@@ -278,6 +310,7 @@ h1{
     text-align: center;
 }
 main{
+ 
     display: flex;
     flex-direction: column;
 }
@@ -289,7 +322,6 @@ main{
 
 main {
     margin: auto;
-    max-width: 1500px;
 }
 
 div>h1 {
@@ -299,17 +331,13 @@ div>h1 {
    width: 50%;
 }
 
-.card h1 {
-    width: 50%;
-    height: 100%;
-    text-align: center;
-}
+
 .card {
   
     display: flex;
     align-items: center;
     width: 100%;
-    justify-content: space-between;
+  
 }
 
 .botao {
@@ -321,6 +349,24 @@ div>h1 {
 
 }
 
+.Card {
+    width: 280px;
+    max-height: 168px;
+}
+
+.Card1 {
+    position: relative;
+}
+.card button {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    
+}
+.card button svg {
+    height: 20px;
+    width: 20px;
+}
 .os100 {
     width: 300px;
 }
@@ -344,7 +390,7 @@ div>h1 {
 .supergirl:hover {
     content: url(../IMG/supergirl.gif);
     min-width: 300px;
-    max-height: 180px;
+    max-height: 168px;
 }
 
 .teenwolf {
@@ -420,7 +466,6 @@ div>h1 {
 .soulsurfer:hover {
     content: url(../IMG/soulsurfer.gif)
 }
-
 @media (max-width:600px) {
     .div1 {
         width: 50%;
@@ -450,10 +495,11 @@ div>h1 {
     }
     .card-top{
         flex-wrap: wrap;
-        margin-top: 0;
+        
     }
     .card{
         flex-wrap: wrap;
+        
     }
     .navnormal{display: none;}
     .navshort{display: block;}
@@ -464,4 +510,8 @@ div>h1 {
 .img{
     width: 160px;
     height: 135px;
+}
+.ionicon{
+    width: 15px;
+    height: 15px;
 }

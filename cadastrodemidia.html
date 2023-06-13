@@ -15,21 +15,30 @@
     </header>
     <div class="div1">
         <h1>Cadastro de midia</h1>
-        <input type="email" placeholder="nome do titulo" class="email">
+        <input type="text" placeholder="nome do titulo" class="email" id="input1">
         <br>
-        <input type="email" placeholder="resumo" class="email">
+        <input type="text" placeholder="resumo" class="email" id="input4">
         <br>
-        <input type="email" placeholder="critica" class="email">
-        <div>
-            <ion-icon name="heart-outline" class="coracao"></ion-icon>
-            <input type="button" value="Escolha a foto" class="Escolha">
+        <input type="text" placeholder="critica" class="email" id="input5">
+        <br>
+        <div class="selecao">
+            <input checked type="radio" name="a" value="Filmes" id="categoria">
+            <p>Filmes</p>
+            <input type="radio"name="a" value="Series" id="categoria">
+            <p>Séries</p>
+            <input type="radio"name="a" value="Livros" id="categoria">
+            <p>Livros</p>
         </div>
         <br>
-        <a href="conteúdo.html"><input type="button" value="Cadastrar" class="Cancelar"></a>
+        <input type="link" placeholder="Imagem do filme" class="email1" id="input2">
+        <br>
+        <input type="link" placeholder="Gif" class="email" id="input3">
+        <br>
+        <input type="button" value="Cadastrar" class="Cadastrar" onclick="cadastrar()">
     </div>
+    
 
-    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="cadastrodemidia.js"></script>
 </body>
 
 </html>
